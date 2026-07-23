@@ -1,0 +1,25 @@
+name: screen_protect
+description: >
+  Flutter screenshot / screen-recording protection with background blur.
+  Wraps no_screenshot and provides a drop-in ScreenProtect widget.
+version: 0.1.0
+homepage: https://github.com/acsweets/packages
+repository: https://github.com/acsweets/packages
+publish_to: none
+
+environment:
+  sdk: ^3.9.2
+  flutter: ">=3.22.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  no_screenshot: ^0.3.1
+  visibility_detector: ^0.4.0+2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
