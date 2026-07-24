@@ -1,0 +1,31 @@
+name: media_core
+description: >
+  Cross-project media cache and playback core.
+  Given URL / local path / MediaRef — disk cache, selection helpers,
+  and mutex / visibility-aware playback. No ApiMedia, no GetX.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ^3.9.2
+  flutter: ">=3.22.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audio_session: ^0.1.21
+  cached_network_image: ^3.4.1
+  crypto: ^3.0.6
+  flutter_cache_manager: ^3.4.1
+  flutter_sound: ^9.16.3
+  fvp: ^0.32.1
+  video_player: ^2.9.2
+  video_thumbnail: ^0.5.6
+  visibility_detector: ^0.4.0+2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:

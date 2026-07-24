@@ -1,0 +1,21 @@
+name: token_ui_example
+description: Gallery and brand-theme demo for token_ui
+publish_to: none
+version: 0.1.0
+
+environment:
+  sdk: ^3.9.2
+  flutter: ">=3.22.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_screenutil: ^5.9.3
+  token_ui:
+    path: ../
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
